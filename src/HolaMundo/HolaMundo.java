@@ -23,7 +23,7 @@ public class HolaMundo {
         Scanner cin=new Scanner(System.in);
         System.out.println("ingrese el primer numero");
         n1=cin.nextInt();
-        System.out.println("ingrese el segundo numero");
+        System.out.println("Ingrese el segundo numero");
         n2=cin.nextInt();
          System.out.println("La suma es:"+n.suma(n1, n2));
         
