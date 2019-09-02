@@ -16,6 +16,9 @@ public class HolaMundo {
     int suma(int nro1,int nro2){
         return (nro1+nro2);
     }
+    int multiplicacion(int nro1,int nro2){
+        return (nro1*nro2);
+    }
     public static void main(String[] args) {
         HolaMundo n=new HolaMundo();
         int n1;
@@ -26,6 +29,6 @@ public class HolaMundo {
         System.out.println("ingrese el segundo numero");
         n2=cin.nextInt();
          System.out.println("La suma es:"+n.suma(n1, n2));
-        
+        System.out.println("La multiplicacion es : "+n.multiplicacion(n1, n2));
     }
 }
